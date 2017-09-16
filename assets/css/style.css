@@ -1,0 +1,103 @@
+body,
+html {
+    background-image: url("../images/background.jpg");
+}
+
+.firstBlock {
+    background-color: #CC7833;
+    width: 20%;
+    margin: .4%;
+    height: 25px;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+.secondBlock {
+    background-color: #FBE7CF;
+    height: 200px;
+    width: 45%;
+    margin: .4%;
+    padding: 1%;
+    padding-bottom: 30px;
+}
+
+p {
+    color: green;
+    line-height: 1;
+    padding-bottom: 15px;
+}
+
+.thirdBlock {
+    background-color: #60c782;
+    width: 250px;
+    height: 100px;
+    display: block;
+    margin: .4%;
+    float: left;
+}
+
+.fourthBlock {
+    background-color: #32F8FB;
+    margin: .4%;
+    float: left;
+    width: 100px;
+    height: 100px;
+}
+
+.fifthBlock {
+    background-color: white;
+    margin: .4%;
+    height: 100px;
+    width: 100px;
+    float: left;
+    clear: both;
+}
+
+.sixthBlock {
+    background-color: white;
+    margin: .4%;
+    height: 100px;
+    width: 100px;
+    float: left;
+}
+
+.seventhBlock {
+    background-color: white;
+    margin: .4%;
+    height: 100px;
+    width: 100px;
+    float: left;
+}
+
+.eigthBlock {
+    background-color: white;
+    margin: .4%;
+    height: 100px;
+    width: 100px;
+    float: left;
+}
+
+.ninthBlock {
+    background-color: #33a196;
+    margin: .4%;
+    float: left;
+    clear: both;
+    width: 250px;
+    height: 25px;
+    color: white;
+    padding-top: 5px;
+}
+
+.tenthBlock {
+    background-color: #33a196;
+    margin: .4%;
+    float: left;
+    clear: both;
+    width: 250px;
+    height: 100px;
+    color: white;
+}
