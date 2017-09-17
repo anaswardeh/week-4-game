@@ -38,6 +38,9 @@ p {
     display: block;
     margin: .4%;
     float: left;
+    font-size: 30px;
+    padding-left: 20px;
+    padding-top: 20px;
 }
 
 .fourthBlock {
@@ -48,7 +51,7 @@ p {
     height: 100px;
 }
 
-.fifthBlock {
+#red {
     background-color: white;
     margin: .4%;
     height: 100px;
@@ -57,7 +60,7 @@ p {
     clear: both;
 }
 
-.sixthBlock {
+#blue {
     background-color: white;
     margin: .4%;
     height: 100px;
@@ -65,7 +68,7 @@ p {
     float: left;
 }
 
-.seventhBlock {
+#yellow {
     background-color: white;
     margin: .4%;
     height: 100px;
@@ -73,7 +76,7 @@ p {
     float: left;
 }
 
-.eigthBlock {
+#green {
     background-color: white;
     margin: .4%;
     height: 100px;
@@ -100,4 +103,5 @@ p {
     width: 250px;
     height: 100px;
     color: white;
+    font-size: 50px;
 }

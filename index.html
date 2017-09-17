@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+        <script src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
+
+      <script src="assets/javascript/game.js"></script>
+
     <title>
         Chrystals Collector!
     </title>
@@ -31,30 +35,38 @@
             Each time when the game starts, the game will change the value of each crystal.
         </p>
     </div>
-    <div class="thirdBlock">
+    <div class="thirdBlock" id="guess">
         &nbsp;
     </div>
-    <div class="fourthBlock">
-        &nbsp;
+    <div class="fourthBlock" id="results">
+    
+    <p> Wins: 0 </p>
+    <p> Losses: 0</p>
+    
     </div>
-    <div class="fifthBlock">
+    <div class="daimond" id="red" value="red">
+
         <img src="assets/images/red.png" width="100px" height="100px">
     </div>
-    <div class="sixthBlock">
+    <div class="daimond" id="blue" value="blue">
         <img src="assets/images/blue.png" width="100px" height="100px">
     </div>
-    <div class="seventhBlock">
+    <div class="daimond" id="yellow" value="yellow">
         <img src="assets/images/yellow.png" width="100px" height="100px">
     </div>
-    <div class="eigthBlock">
+    <div class="daimond" id="green" value="green">
         <img src="assets/images/green.png" width="100px" height="100px">
     </div>
     <div class="ninthBlock" id="#score" width="100px" height="100px">
         Your total score is:
     </div>
-    <div class="tenthBlock">
+    <div class="tenthBlock" id="score">
         &nbsp;
     </div>
+
+
 </body>
+
+
 
 </html>
