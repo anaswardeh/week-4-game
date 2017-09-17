@@ -21,7 +21,7 @@ $(document).ready(function() {
 
 
 
-    $("#guess").html(random = Math.floor((Math.random() * 75) + 25));
+    $("#guess").html(random = Math.floor((Math.random() * 76) + 25));
     $("#score").html(total);
 
 
@@ -30,7 +30,7 @@ $(document).ready(function() {
     //Each variable is assigned to a different image
 
     $("#red").one("click", function() {
-        red = Math.floor((Math.random() * 11) + 1);
+        red = Math.floor((Math.random() * 10) + 1);
         total += red;
         $("#score").html(total);
 
@@ -69,7 +69,7 @@ $(document).ready(function() {
 
 
     $("#blue").one("click", function() {
-        blue = Math.floor((Math.random() * 11) + 1);
+        blue = Math.floor((Math.random() * 10) + 1);
         total += blue;
         $("#score").html(total);
 
@@ -107,7 +107,7 @@ $(document).ready(function() {
 
 
     $("#yellow").one("click", function() {
-        yellow = Math.floor((Math.random() * 11) + 1);
+        yellow = Math.floor((Math.random() * 10) + 1);
         total += yellow;
         $("#score").html(total);
 
@@ -140,7 +140,7 @@ $(document).ready(function() {
     });
 
     $("#green").one("click", function() {
-        green = Math.floor((Math.random() * 11) + 1);
+        green = Math.floor((Math.random() * 10) + 1);
         total += green;
         $("#score").html(total);
 
@@ -181,11 +181,11 @@ $(document).ready(function() {
         $("#results").html("<p> Wins: " + winnings + "</p>" +
             " <p> losses: " + losses + "</p>");
 
-        random = Math.floor((Math.random() * 75) + 25);
-        red = Math.floor((Math.random() * 11) + 1);
-        blue = Math.floor((Math.random() * 11)+ 1);
-        yellow = Math.floor((Math.random() * 11)+ 1);
-        green = Math.floor((Math.random() * 11)+ 1);
+        random = Math.floor((Math.random() * 76) + 25);
+        red = Math.floor((Math.random() * 10) + 1);
+        blue = Math.floor((Math.random() * 10) + 1);
+        yellow = Math.floor((Math.random() * 10) + 1);
+        green = Math.floor((Math.random() * 10) + 1);
         total = 0;
         $("#guess").html(random);
         $("#score").html(total);

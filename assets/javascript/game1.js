@@ -4,7 +4,7 @@ $(document).ready(function() {
     var winnings = 0;
     var losses = 0;
 
-    var rand = Math.floor((Math.random() * 75) + 25);
+    var rand = Math.floor((Math.random() * 76) + 25);
 
     $("#guess").html(rand);
 
@@ -30,10 +30,10 @@ $(document).ready(function() {
         }
     }
 
-    crystal.red.value = Math.floor((Math.random() * 11) + 1);
-    crystal.blue.value = Math.floor((Math.random() * 11) + 1);
-    crystal.yellow.value = Math.floor((Math.random() * 11) + 1);
-    crystal.green.value = Math.floor((Math.random() * 11) + 1);
+    crystal.red.value = Math.floor((Math.random() * 10) + 1);
+    crystal.blue.value = Math.floor((Math.random() * 10) + 1);
+    crystal.yellow.value = Math.floor((Math.random() * 10) + 1);
+    crystal.green.value = Math.floor((Math.random() * 10) + 1);
 
 
     var addValues = function(clickCyrstal) {
@@ -96,18 +96,15 @@ $(document).ready(function() {
     function reset() {
         $("#results").html("<p> Wins: " + winnings + "</p>" +
             " <p> losses: " + losses + "</p>");
-        rand = Math.floor((Math.random() * 75) + 25);
+        rand = Math.floor((Math.random() * 76) + 25);
         currentScore = 0;
-        crystal.red.value = Math.floor((Math.random() * 11) +1 );
-        crystal.blue.value = Math.floor((Math.random() * 11) +1 );
-        crystal.yellow.value = Math.floor((Math.random() * 11) +1 );
-        crystal.green.value = Math.floor((Math.random() * 11) +1 );
+        crystal.red.value = Math.floor((Math.random() * 10) + 1);
+        crystal.blue.value = Math.floor((Math.random() * 10) + 1);
+        crystal.yellow.value = Math.floor((Math.random() * 10) + 1);
+        crystal.green.value = Math.floor((Math.random() * 10) + 1);
         $("#guess").html(rand);
         $("#score").html(currentScore);
 
     }
-
-
-
 
 });
